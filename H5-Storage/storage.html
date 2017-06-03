@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>本地存储库测试</title>
+		<script src="js/myStorage.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			console.log(
+				$.getOrSetStorage({
+					type:"localStorage",
+					key:"12",
+					val:{a:1,b:2},
+					day:10,
+				})
+			);
+//			console.log(
+//				$.getOrSetStorage({
+//					type:"localStorage",
+//					day:10,
+//					key:"aaaaaa"
+//				})
+//			);
+			
+			//$.deleteOrClearStorage({type:"localStorage"});
+		</script>
+	</head>
+	<body>
+		hello world;
+	</body>
+</html>
